@@ -15,15 +15,15 @@
     <div></div></div>
     <ul id="hamburgerdropdown" class="invisible">
         <li class="invisible" onclick="closenav()">Close</li>
-        <li class="invisible">Home</li>
-        <li class="invisible">Gallery</li>
-        <li class="invisible">About Us</li>
-        <li class="invisible" class="lastoption">Questions?</li>
+        <li class="invisible" onclick="document.location='index.html'">Home</li>
+        <li class="invisible" onclick="document.location='gallery.html'">Gallery</li>
+        <li class="invisible" onclick="document.location='about.html'">About Us</li>
+        <li class="invisible" class="lastoption" onclick="document.location='questions.html'">Questions?</li>
     </ul>
     <h1 id="slogan">Think Fit Live Fit
     </h1>
-    <div id="homepageimagecontainer"><img src="assets\Client2_GroupYoga.png" width="50%"></div>
-    <footer><p>Email: notreal@notral.com</p><p>Phone: 123-Notreal-1111</p></footer>
+    <div id="homepageimagecontainer"><img src="assets\Client2_GroupYoga.png" width="75%" id="homepageimage"></div>
+    <footer><p>Email: notreal@notral.com</p><p>Phone: 123-Notreal-1111</p><input id="subscribeinput" type="text" placeholder="enter your email"><button id="subscribebutton" onclick="subscribe()">Subscribe</button><button id="viewcartbutton" onclick="viewcart()">View Cart</button><button id="clearcartbutton" onclick="clearcart()">Clear Cart</button></footer>
     <script src="main.js"></script>
 </body>
 </html>

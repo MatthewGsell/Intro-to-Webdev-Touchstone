@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About?</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <p>about</p>
+    <div id="logobar"><div id="logoandname">
+        <img src="assets\Client2_LogoPalette2_634E99.png" height="150px" width="150px"><h1>ABC Fitness Studio</h1>
+    </div><div id="desktoplinks"><button onclick="document.location='index.html'">Home</button><button onclick="document.location='gallery.html'">Gallery</button><button onclick="document.location='about.html'">About Us</button><button onclick="document.location='questions.html'">Questions?</button></div></div>
+    <div id="hamburger" onclick="opennav()"><div></div>
+    <div></div>
+    <div></div></div>
+    <ul id="hamburgerdropdown" class="invisible">
+        <li class="invisible" onclick="closenav()">Close</li>
+        <li class="invisible" onclick="document.location='index.html'">Home</li>
+        <li class="invisible" onclick="document.location='gallery.html'">Gallery</li>
+        <li class="invisible" onclick="document.location='about.html'">About Us</li>
+        <li class="invisible" class="lastoption" onclick="document.location='questions.html'">Questions?</li>
+    </ul>
+    <h1 id="slogan">About Us
+    </h1>
+    <div id="aboutuscontainer"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2></div>
+    <footer><p>Email: notreal@notral.com</p><p>Phone: 123-Notreal-1111</p><input id="subscribeinput" type="text" placeholder="enter your email"><button id="subscribebutton" onclick="subscribe()">Subscribe</button><button id="viewcartbutton" onclick="viewcart()">View Cart</button><button id="clearcartbutton" onclick="clearcart()">Clear Cart</button></footer>
+    <script src="main.js"></script>
 </body>
 </html>

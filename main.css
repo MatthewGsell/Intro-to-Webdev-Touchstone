@@ -78,21 +78,81 @@ body {
 }
 #slogan {
     margin-top: 4rem;
-    margin-left: 8rem;
+    margin-left: 10%;
 }
 
 footer {
-    position: absolute;
+ 
     background-color: #1ffebc;
+    position: relative;
+    display: flex;
     bottom: 0;
     width: 100%;
-    height: 5%;
+    min-height: 5%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #homepageimagecontainer {
     display: flex;
     justify-content: center;
+    min-height: 80vh;
+}
+
+#aboutuscontainer {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+#questionscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#questionform {
+    border: 3px solid #00231c;
+    background-color: #155ebc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    min-width: 50%;
+    min-height: 500px;
+    border-radius: 10px;
+}
+
+#questionform > div {
+    display: flex;
+    margin: 10px;
+}
+
+#questionform > div > input {
+    margin: 5px;
+    max-height: 30px;
+    border-radius: 3px;
+}
+
+#questionform > textarea {
+    width: 75%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+
+
+#questionform > div > p {
+    margin: 5px;
+}
+
+
+#aboutuscontainer > h3 {
+    margin: 50px;
+    max-width: 1500px;
 }
 
 @media screen and (max-width: 600px) {
@@ -122,4 +182,100 @@ footer {
     display: flex;
  }
 }
-  
+#homepageimage {
+    margin-bottom: 20px;
+}
+#gallerycontainer {
+    display: flex;                       
+    flex-wrap: wrap;                     
+    justify-content: space-around;
+    background-color: #634e99;
+    
+}
+
+#gallerycontainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+#gallerycontainer > div > img {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+#gallerycontainer > div > p {
+    font-weight: bolder;
+}
+
+
+
+.addtocartbutton {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.addtocartbutton:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+
+#subscribebutton {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#viewcartbutton {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#clearcartbutton {
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#subscribebutton:hover {
+    cursor: pointer;
+}
+
+#viewcartbutton:hover {
+    cursor: pointer;
+}
+
+#clearcartbutton:hover {
+    cursor: pointer;
+}
+
+footer > input {
+    min-width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+
+#formbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+#formbuttons > button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.2s;
+}
+#formbuttons > button:hover {
+    cursor: pointer; 
+    scale: 1.1;
+}
