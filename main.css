@@ -3,6 +3,31 @@ body {
     color: #00231c;
 }
 
+h1 {
+ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
 #hamburger {
     display: none;
 }
